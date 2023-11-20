@@ -1,0 +1,30 @@
+#examples {
+  margin: 5rem 5rem;
+}
+
+#examples h2 {
+  text-align: left;
+}
+
+#examples menu {
+  margin: 1rem 0;
+  padding: 0;
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+#tab-content {
+  align-items: center;
+  background: #467750;
+  padding: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba (240, 205, 110, 0.2);
+  width: 75%;
+  transition: all 0.2s;
+}
+
+.job-date {
+  font-weight: bold;
+  font-style: italic;
+}
