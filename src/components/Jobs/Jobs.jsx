@@ -9,8 +9,12 @@ import { EXAMPLES } from "./../../data.js";
 export default function Jobs() {
   const [selectedJob, setSelectedJob] = useState();
 
-  function handleSelect(selectedButton) {
-    setSelectedJob(selectedButton);
+  function handleSelect(selectedButton, currentJob) {
+    if (selectedButton === currentJob) {
+      setSelectedJob(null);
+    } else {
+      setSelectedJob(selectedButton);
+    }
   }
 
   let tabContent = "";
@@ -31,6 +35,7 @@ export default function Jobs() {
   return (
     <>
       <Section title="Job History" id="examples">
+        <p>Select a position to learn more.</p>
         <TabList
           ButtonsContainer="div"
           buttons={
@@ -38,7 +43,7 @@ export default function Jobs() {
               {EXAMPLES.map((job) => (
                 <TabsButton
                   key={job.nickname}
-                  onClick={() => handleSelect(job)}
+                  onClick={() => handleSelect(job, selectedJob)}
                   iSelected={selectedJob === job}
                   tabContent={tabContent}
                 >
