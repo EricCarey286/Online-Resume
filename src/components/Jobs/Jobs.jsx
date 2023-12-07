@@ -13,15 +13,15 @@ export default function Jobs() {
     setSelectedJob(selectedButton);
   }
 
-  let tabContent = <p>Select each button to explore relevant positions.</p>;
+  let tabContent = "";
 
   if (selectedJob) {
     tabContent = (
       <div id="tab-content">
         <h3>{selectedJob.title}</h3>
-        <p className="job-date">{selectedJob.date}</p>
         <p>{selectedJob.description}</p>
         <pre>
+          <h3>Technologies & Skills</h3>
           <code>{selectedJob.code}</code>
         </pre>
       </div>
@@ -32,7 +32,7 @@ export default function Jobs() {
     <>
       <Section title="Job History" id="examples">
         <TabList
-          ButtonsContainer="menu"
+          ButtonsContainer="div"
           buttons={
             <>
               {EXAMPLES.map((job) => (
@@ -40,15 +40,15 @@ export default function Jobs() {
                   key={job.nickname}
                   onClick={() => handleSelect(job)}
                   iSelected={selectedJob === job}
+                  tabContent={tabContent}
                 >
-                  {job.company}
+                  <span className="title">{job.company}</span>
+                  <span className="title-date">{job.date}</span>
                 </TabsButton>
               ))}
             </>
           }
-        >
-          {tabContent}
-        </TabList>
+        ></TabList>
       </Section>
     </>
   );
