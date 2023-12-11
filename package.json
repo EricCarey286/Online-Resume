@@ -1,12 +1,13 @@
 {
-  "name": "practice-cmp-start",
-  "version": "1.0.0",
+  "name": "carey-resume",
+  "version": "2.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
-  "homepage": "http://ericcarey286.github.io/online-resume",
+  "homepage": "https://ericcarey286.github.io/online-resume",
   "dependencies": {
     "loader-utils": "3.2.1",
+    "node-sass": "^7.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scripts": "5.0.1"
