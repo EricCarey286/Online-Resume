@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.aeace25a.css",
-    "main.js": "/static/js/main.40c4b2d6.js",
-    "static/media/react-logo.png": "/static/media/react-logo.1571a4bece640542903b.png",
-    "static/media/headshot.jpg": "/static/media/headshot.6e78be8ed41d103f461e.jpg",
-    "static/media/volunteer.png": "/static/media/volunteer.377a10b8c3948466f6ce.png",
-    "index.html": "/index.html",
-    "main.aeace25a.css.map": "/static/css/main.aeace25a.css.map",
-    "main.40c4b2d6.js.map": "/static/js/main.40c4b2d6.js.map"
+    "main.css": "/online-resume/static/css/main.aeace25a.css",
+    "main.js": "/online-resume/static/js/main.a10d48cf.js",
+    "static/media/react-logo.png": "/online-resume/static/media/react-logo.1571a4bece640542903b.png",
+    "static/media/headshot.jpg": "/online-resume/static/media/headshot.6e78be8ed41d103f461e.jpg",
+    "static/media/volunteer.png": "/online-resume/static/media/volunteer.377a10b8c3948466f6ce.png",
+    "index.html": "/online-resume/index.html",
+    "main.aeace25a.css.map": "/online-resume/static/css/main.aeace25a.css.map",
+    "main.a10d48cf.js.map": "/online-resume/static/js/main.a10d48cf.js.map"
   },
   "entrypoints": [
     "static/css/main.aeace25a.css",
-    "static/js/main.40c4b2d6.js"
+    "static/js/main.a10d48cf.js"
   ]
 }
