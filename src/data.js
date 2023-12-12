@@ -3,6 +3,8 @@ import reactImg from "./assets/images/react-logo.png";
 import leaderImg from "./assets/images/leader.png";
 import volunteerImg from "./assets/images/volunteer.png";
 
+
+
 export const CORE_CONCEPTS = [
   {
     image: jsImg,
@@ -14,13 +16,14 @@ export const CORE_CONCEPTS = [
     image: reactImg,
     title: "React",
     description:
-      "This webiste is built with React. The projects aims to highlight my skills and understanding of the React framework. For more information please explore the repo here: EC Online Resume",
+"This webiste is built with React. The projects aims to highlight my skills and understanding of the React framework. For more information please explore the repo here: ",
+    link: <a href="github.com/ericcarey286/online-resume">EC Online Resume</a>
   },
   {
     image: leaderImg,
     title: "Leadership",
     description:
-      "My strong organizational abilities and effective communication show through my project lead experience as well as my time as president of a collegiatef fraternity",
+      "My strong organizational abilities and effective communication show through my project lead experience as well as my time as president of a collegiate fraternity",
   },
   {
     image: volunteerImg,
