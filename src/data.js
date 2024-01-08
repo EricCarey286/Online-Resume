@@ -16,7 +16,7 @@ export const CORE_CONCEPTS = [
     image: reactImg,
     title: "React",
     description:
-"This webiste is built with React. The projects aims to highlight my skills and understanding of the React framework. For more information please explore the repo here: ",
+"This webiste is built with React. The project aims to highlight my skills and understanding of the React framework. For more information please explore the repo here: ",
     link: <a href="github.com/ericcarey286/online-resume">EC Online Resume</a>
   },
   {
@@ -29,7 +29,7 @@ export const CORE_CONCEPTS = [
     image: volunteerImg,
     title: "Volunteering",
     description:
-      "I helped found and server as  Director of Digital Media for Friends of North Attleboro Parks, an organizaion helping rejunvinate and beautify community parks and monuments",
+      "I helped found and serve as Director of Digital Media for Friends of North Attleboro Parks, an organizaion helping rejunvinate and beautify community parks and monuments",
   },
 ];
 
