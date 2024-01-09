@@ -1,6 +1,7 @@
 import headshot from "./assets/images/headshot.jpg";
 
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import ConceptList from "./components/Concepts/ConceptList";
 import Jobs from "./components/Jobs/Jobs";
 
@@ -10,6 +11,7 @@ function App() {
       <Header image={headshot} />
       <ConceptList />
       <Jobs />
+      <Footer />
     </>
   );
 }
