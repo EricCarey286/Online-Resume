@@ -3,8 +3,6 @@ import reactImg from "./assets/images/react-logo.png";
 import leaderImg from "./assets/images/leader.png";
 import volunteerImg from "./assets/images/volunteer.png";
 
-
-
 export const CORE_CONCEPTS = [
   {
     image: jsImg,
@@ -16,8 +14,12 @@ export const CORE_CONCEPTS = [
     image: reactImg,
     title: "React",
     description:
-"This webiste is built with React. The project aims to highlight my skills and understanding of the React framework. For more information please explore the repo here: ",
-    link: <a href="github.com/ericcarey286/online-resume">EC Online Resume</a>
+      "This webiste is built with React. The project aims to highlight my skills and understanding of the React framework. For more information please explore the repo here: ",
+    link: (
+      <a href="https://github.com/ericcarey286/online-resume">
+        EC Online Resume
+      </a>
+    ),
   },
   {
     image: leaderImg,
@@ -40,7 +42,7 @@ export const EXAMPLES = [
     company: "Dell Technologies",
     date: "Sep. 2021 - Present",
     description:
-      "As a Software Engineer with Dell, I work on a team responsible for the building on the ServiceNow platform for our Managed Services offerings. My main area of focus is the frontend Service Portal, building custom widgets using Angular and built in ServiceNow libraries. I also assist in the backend creating catalogs and server side scripts to control the flow of information for the ITSM staff. My second major responsibility is assisting the DevOps team's production support and on call schedule, aiding customers and other teams when using our platform.",
+      "As a Software Engineer with Dell, I work on a team responsible for the building on the ServiceNow platform for our Managed Services offerings. My main area of focus is the frontend Service Portal, building custom APIs andwidgets using Angular and built in ServiceNow libraries. I also assist in the backend creating catalogs and server side scripts to control the flow of information for the ITSM staff. My second major responsibility is assisting the DevOps team's production support and on call schedule, aiding customers and other teams when using our platform.",
     code: `
 RESTful APIs
 JavaScript / TypeScript

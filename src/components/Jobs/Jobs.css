@@ -30,9 +30,8 @@
   font-style: italic;
 }
 
-
 @media (max-width: 600px) {
   #examples {
-    margin: 2rem 2 rem;
+    margin: 2rem 1rem;
   }
-  }
+}
