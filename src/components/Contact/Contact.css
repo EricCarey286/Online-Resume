@@ -1,0 +1,46 @@
+#contact-div {
+  width: 100%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-center;
+  margin: 5rem auto;
+  padding: 1rem;
+}
+
+h3 {
+  margin: 0px;
+  padding: 0px;
+  line-height: 5px;
+}
+
+h5 {
+  font-style: italic;
+}
+
+.contact-input {
+  margin: 10px 5px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.submit {
+  margin: 5px;
+  padding: 10px;
+background-color: #467750
+}
+
+@media (min-width: 600px) {
+  .contact-form {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-form {
+    max-width: 100%;
+    margin: 1rem
+  }
+}
