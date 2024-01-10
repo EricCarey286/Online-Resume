@@ -24,12 +24,32 @@ h5 {
   margin: 10px 5px;
   padding: 5px;
   font-size: 16px;
+  border-radius: 5px;
+  border-color: #ebe7ef;
 }
 
 .submit {
   margin: 5px;
   padding: 10px;
-background-color: #467750
+  border-radius: 5px;
+  border-color: #ebe7ef;
+  border-width: 1px;
+  background-color: #467750;
+  color: #ebe7ef;
+}
+
+.submit:hover {
+  background-color: #ebe7ef;
+  color: #467750;
+  border-color: #467750;
+}
+
+.contact-success {
+  color: #ebe7ef;
+}
+
+.contact-error {
+  color: lightcoral;
 }
 
 @media (min-width: 600px) {
@@ -41,6 +61,5 @@ background-color: #467750
 @media (max-width: 600px) {
   .contact-form {
     max-width: 100%;
-    margin: 1rem
   }
 }
