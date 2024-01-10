@@ -10,13 +10,13 @@
   padding: 1rem;
 }
 
-h3 {
+.contact-form h3 {
   margin: 0px;
   padding: 0px;
   line-height: 5px;
 }
 
-h5 {
+.contact-form h5 {
   font-style: italic;
 }
 
