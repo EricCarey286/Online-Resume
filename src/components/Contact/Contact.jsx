@@ -6,6 +6,10 @@ import "./Contact.css";
 export default function Contact() {
   const [isSuccessful, setIsSuccessful] = useState("null");
 
+  const serviceKey = 'service_8e72fb5';
+  const templateKey = 'template_e8oqcb9';
+  const publicKey = 'V_TYKAT8dkSssHTNv';
+
   const form = useRef();
   const nameRef = useRef();
   const emailRef = useRef();
@@ -14,23 +18,16 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_8e72fb5",
-        "template_e8oqcb9",
-        form.current,
-        "V_TYKAT8dkSssHTNv",
-      )
-      .then(
-        (result) => {
-          validateSuccess(true);
-          console.log(result.text);
-        },
-        (error) => {
-          validateSuccess(false);
-          console.log(error.text);
-        },
-      );
+    emailjs.sendForm(serviceKey, templateKey, form.current, publicKey).then(
+      (result) => {
+        validateSuccess(true);
+        console.log(result.text);
+      },
+      (error) => {
+        validateSuccess(false);
+        console.log(error.text);
+      },
+    );
     nameRef.current.value = "";
     emailRef.current.value = "";
     messageRef.current.value = "";
