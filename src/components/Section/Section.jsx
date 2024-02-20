@@ -1,3 +1,5 @@
+import './Section.css'
+
 export default function Section({ title, children, ...props }) {
   return (
     <section {...props}>

@@ -1,4 +1,5 @@
 import "./Footer.css";
+import Socials from "../Socials/Socials";
 
 import githubImg from "../../assets/images/github.png";
 import linkedinImg from "../../assets/images/linkedin.png";
@@ -10,12 +11,7 @@ export default function Footer() {
         <p>Copyright © 2024 Eric W Carey. All Rights Reserved.</p>
       </div>
       <div className="footer-section">
-        <a href="https://github.com/ericcarey286" target="_blank">
-          <img src={githubImg} />
-        </a>
-        <a href="https://linkedin.com/in/ericcarey1" target="_blank">
-          <img src={linkedinImg} />
-        </a>
+        <Socials />
       </div>
     </footer>
   );
