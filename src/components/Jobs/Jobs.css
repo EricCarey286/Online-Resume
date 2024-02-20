@@ -1,11 +1,3 @@
-#examples {
-  margin: 5rem auto;
-}
-
-#examples h2 {
-  text-align: left;
-}
-
 #tab-content {
   align-items: center;
   background: #467750;
@@ -28,22 +20,4 @@
 .title-date {
   float: right;
   font-style: italic;
-}
-
-@media (min-width: 1001px) {
-  #examples {
-    max-width: 50%;
-  }
-}
-
-@media (min-width: 601px) and (max-width: 1000px) {
-  #examples {
-    max-width: 75%;
-  }
-}
-
-@media (max-width: 600px) {
-  #examples {
-    max-width: 90%;
-  }
 }
