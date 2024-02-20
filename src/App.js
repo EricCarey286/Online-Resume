@@ -14,7 +14,6 @@ function App() {
       <Header image={headshot} />
       <ConceptList />
       <Jobs />
-      <ProjectSection />
       <Contact />
       <Footer />
     </>
