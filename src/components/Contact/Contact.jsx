@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useContext } from "react";
 import emailjs from "@emailjs/browser";
 
 import "./Contact.css";
@@ -6,9 +6,9 @@ import "./Contact.css";
 export default function Contact() {
   const [isSuccessful, setIsSuccessful] = useState("null");
 
-  const serviceKey = 'service_8e72fb5';
-  const templateKey = 'template_e8oqcb9';
-  const publicKey = 'V_TYKAT8dkSssHTNv';
+  const serviceKey = "service_8e72fb5";
+  const templateKey = "template_e8oqcb9";
+  const publicKey = "V_TYKAT8dkSssHTNv";
 
   const form = useRef();
   const nameRef = useRef();
@@ -62,8 +62,8 @@ export default function Contact() {
           className="contact-input"
           required
         />
-        <label>Message</label>
-        <textarea ref={messageRef} name="message" className="contact-input" />
+        <label for="message">Message</label>
+        <textarea id="contact-message" ref={messageRef} name="message" />
         <input type="submit" value="Send" className="submit" required />
         {isSuccessful == "success" ? (
           <p className="contact-success "> Your message has been sent</p>
