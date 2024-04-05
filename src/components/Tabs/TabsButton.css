@@ -18,6 +18,7 @@ li {
   border-right: none;
   border-left: none;
   border-bottom: #e0e8e2 1px solid;
+  border-radius: 10px;
 }
 
 .tab:hover {

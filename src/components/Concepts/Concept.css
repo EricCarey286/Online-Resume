@@ -4,10 +4,10 @@
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
-  background: linear-gradient(#2a3f3f, #467750);
+  background: linear-gradient(#293f3f, #467750);
   padding: 1.5rem;
   border-radius: 6px;
-  box-shadow: 0 2px 20px rgba(240, 205, 110, 0.2);
+  box-shadow: 0 -5px 30px #467750;
   width: 50%;
   transition: all 0.2s;
 }
@@ -27,7 +27,7 @@
 .concept p {
   margin: 0;
   text-align: center;
-  font-size: 0.85rem;
+  font-size: 1rem;
 }
 
 .concept a {
